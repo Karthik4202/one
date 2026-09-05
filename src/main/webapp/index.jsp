@@ -240,7 +240,7 @@ footer{padding:45px 0 25px;border-top:1px solid var(--border);margin-top:15px}
     <div class="container">
         <div class="hero-content">
             <div class="eyebrow"><i class="fas fa-sparkles"></i> New Collection 2026</div>
-            <h1>Everything You Want.<br>Delivered Faster.</h1>
+            <h1>Everything You Want.<br>Delivered Faster! 🚀</h1>
             <p>Discover premium electronics, fashion, accessories and everyday essentials. Real inventory, persistent cart, instant search and a complete shopping experience — all in one page.</p>
             <div class="hero-actions">
                 <button class="btn btn-primary" onclick="scrollToId('products')"><i class="fas fa-bag-shopping"></i> Shop Now</button>
