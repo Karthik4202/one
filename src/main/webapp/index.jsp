@@ -425,8 +425,8 @@
 
 <header>
   <div class="container header-inner">
-    <button class="mobile-toggle" id="mobileToggle"><i class="fas fa-bars"></em></button>
-    <div class="brand"><i class="fas fa-moon"></em><span>VoidMarket</span></div>
+    <button class="mobile-toggle" id="mobileToggle"><em class="fas fa-bars"></em></button>
+    <div class="brand"><em class="fas fa-moon"></em><span>VoidMarket</span></div>
     <nav>
       <a class="active" href="#home">Home</a>
       <a href="#categories">Categories</a>
@@ -435,10 +435,10 @@
       <a href="#reviews">Reviews</a>
     </nav>
     <div class="header-actions">
-      <button class="icon-btn" id="searchToggle"><i class="fas fa-search"></em></button>
-      <button class="icon-btn" id="wishlistBtn"><i class="far fa-heart"></em><span class="count" id="wishCount">0</span></button>
-      <button class="icon-btn" id="cartBtn"><i class="fas fa-bag-shopping"></em><span class="count" id="cartCount">0</span></button>
-      <button class="icon-btn" id="accountBtn"><i class="far fa-user"></em></button>
+      <button class="icon-btn" id="searchToggle"><em class="fas fa-search"></em></button>
+      <button class="icon-btn" id="wishlistBtn"><em class="far fa-heart"></em><span class="count" id="wishCount">0</span></button>
+      <button class="icon-btn" id="cartBtn"><em class="fas fa-bag-shopping"></em><span class="count" id="cartCount">0</span></button>
+      <button class="icon-btn" id="accountBtn"><em class="far fa-user"></em></button>
     </div>
   </div>
   <div class="mobile-menu" id="mobileMenu">
@@ -452,12 +452,12 @@
   <section class="hero">
     <div class="container">
       <div class="hero-content">
-        <div style="display:inline-flex;gap:6px;background:var(--surface);padding:4px 14px;border-radius:40px;font-size:11px;font-weight:600;color:var(--accent);margin-bottom:12px;border:1px solid var(--border);"><i class="fas fa-circle" style="font-size:8px;"></em> live inventory</div>
+        <div style="display:inline-flex;gap:6px;background:var(--surface);padding:4px 14px;border-radius:40px;font-size:11px;font-weight:600;color:var(--accent);margin-bottom:12px;border:1px solid var(--border);"><em class="fas fa-circle" style="font-size:8px;"></em> live inventory</div>
         <h1>Dark matter <em>·</em> <br>minimal edge</h1>
         <p>Explore a curated selection of premium goods. Real‑time stock, persistent cart, and a clean nocturnal aesthetic.</p>
         <div style="display:flex;gap:10px;flex-wrap:wrap;">
-          <button class="btn btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})"><i class="fas fa-arrow-right"></em> Explore</button>
-          <button class="btn btn-dark" onclick="document.getElementById('deals').scrollIntoView({behavior:'smooth'})"><i class="fas fa-bolt"></em> Flash deals</button>
+          <button class="btn btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})"><em class="fas fa-arrow-right"></em> Explore</button>
+          <button class="btn btn-dark" onclick="document.getElementById('deals').scrollIntoView({behavior:'smooth'})"><em class="fas fa-bolt"></em> Flash deals</button>
         </div>
       </div>
     </div>
@@ -490,9 +490,9 @@
     <div class="container">
       <div class="section-head"><h2>⚡ Flash deal</h2><p>limited time</p></div>
       <div class="deal-card">
-        <div class="deal-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85f21b?auto=format&fit=crop&w=600&q=80" alt="deal"></div>
+        <div class="deal-img"><emmg src="https://images.unsplash.com/photo-1558618666-fcd25c85f21b?auto=format&fit=crop&w=600&q=80" alt="deal"></div>
         <div class="deal-body">
-          <span class="deal-tag"><i class="fas fa-bolt"></em> 36h left</span>
+          <span class="deal-tag"><em class="fas fa-bolt"></em> 36h left</span>
           <h2>Ultra‑wide monitor</h2>
           <p>Immersive 34" curved display, 144Hz, HDR400 — perfect for work and play.</p>
           <div class="deal-price">$499 <del>$799</del></div>
@@ -502,7 +502,7 @@
             <div class="time-block"><strong id="minutes">00</strong><small>m</small></div>
             <div class="time-block"><strong id="seconds">00</strong><small>s</small></div>
           </div>
-          <button class="btn btn-primary" onclick="addToCart(9)"><i class="fas fa-cart-plus"></em> Grab deal</button>
+          <button class="btn btn-primary" onclick="addToCart(9)"><em class="fas fa-cart-plus"></em> Grab deal</button>
         </div>
       </div>
     </div>
@@ -520,8 +520,8 @@
       <div class="newsletter">
         <div><h3>Noise reduction</h3><p>Get restock alerts &amp; exclusive drops</p></div>
         <form id="newsletterForm">
-          <input type="email" id="newsletterEmail" placeholder="your@email.void" required>
-          <button class="btn btn-primary" style="border-radius:40px;"><i class="fas fa-paper-plane"></em> Subscribe</button>
+          <emnput type="email" id="newsletterEmail" placeholder="your@email.void" required>
+          <button class="btn btn-primary" style="border-radius:40px;"><em class="fas fa-paper-plane"></em> Subscribe</button>
         </form>
       </div>
     </div>
@@ -531,7 +531,7 @@
 <footer>
   <div class="container">
     <div class="footer-grid">
-      <div class="footer-brand"><div class="brand"><i class="fas fa-moon"></em><span>VoidMarket</span></div><p>A dark‑themed commerce experiment with local state, wishlist, orders and real‑time inventory pulses.</p><div class="social"><a href="#"><i class="fab fa-instagram"></em></a><a href="#"><i class="fab fa-x-twitter"></em></a><a href="#"><i class="fab fa-github"></em></a></div></div>
+      <div class="footer-brand"><div class="brand"><em class="fas fa-moon"></em><span>VoidMarket</span></div><p>A dark‑themed commerce experiment with local state, wishlist, orders and real‑time inventory pulses.</p><div class="social"><a href="#"><em class="fab fa-instagram"></em></a><a href="#"><em class="fab fa-x-twitter"></em></a><a href="#"><em class="fab fa-github"></em></a></div></div>
       <div class="footer-col"><h4>Explore</h4><a href="#products">Shop</a><a href="#categories">Categories</a><a href="#deals">Deals</a></div>
       <div class="footer-col"><h4>Account</h4><a href="#" onclick="openAccount();return false">Profile</a><a href="#" onclick="openOrders();return false">Orders</a><a href="#" onclick="openWishlist();return false">Wishlist</a></div>
       <div class="footer-col"><h4>Company</h4><a href="#">About</a><a href="#">Contact</a><a href="#">Privacy</a></div>
@@ -542,19 +542,19 @@
 
 <div class="overlay" id="overlay"></div>
 <aside class="drawer" id="cartDrawer">
-  <div class="drawer-head"><h2><i class="fas fa-bag-shopping"></em> Cart</h2><button class="close" onclick="closePanels()"><i class="fas fa-times"></em></button></div>
+  <div class="drawer-head"><h2><em class="fas fa-bag-shopping"></em> Cart</h2><button class="close" onclick="closePanels()"><em class="fas fa-times"></em></button></div>
   <div class="drawer-body" id="cartBody"></div>
   <div class="drawer-foot" id="cartFoot"></div>
 </aside>
 
 <div class="modal-wrap" id="modalWrap">
   <div class="modal">
-    <div class="modal-head"><h2 id="modalTitle">Void</h2><button class="close" onclick="closeModal()"><i class="fas fa-times"></em></button></div>
+    <div class="modal-head"><h2 id="modalTitle">Void</h2><button class="close" onclick="closeModal()"><em class="fas fa-times"></em></button></div>
     <div class="modal-body" id="modalBody"></div>
   </div>
 </div>
 
-<div class="toast" id="toast"><i class="fas fa-check-circle"></em><span id="toastText"></span></div>
+<div class="toast" id="toast"><em class="fas fa-check-circle"></em><span id="toastText"></span></div>
 
 <script>
 // ---------- DATA ----------
